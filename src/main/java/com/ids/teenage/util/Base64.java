@@ -18,6 +18,9 @@ public class Base64 {
 		map1[i++] = '+';
 		map1[i++] = '/';
 	}
+	public void test(){
+        String a="123";
+    }
 
 	// Mapping table from Base64 characters to 6-bit nibbles.
 	private static byte[] map2 = new byte[128];
